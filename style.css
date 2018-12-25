@@ -36,7 +36,6 @@ nav {
 main {
   margin: 0 auto;
   max-width: 64ch;
-  padding: 1rem;
 }
 
 h1 {
@@ -44,4 +43,8 @@ h1 {
   font-weight: 700;
   line-height: 1;
   text-align: center;
+}
+
+p {
+  padding: 0 1rem;
 }
