@@ -42,26 +42,19 @@ main {
 h1 {
   font-size: 1rem;
   font-weight: 700;
+  letter-spacing: .05em;
   line-height: 1;
   text-align: center;
+  text-transform: uppercase;
 }
 
 h2 {
   font-size: 1.25rem;
   font-weight: 700;
   line-height: 1.2;
-  padding: 0 0 1rem;
+  padding: 0 0 .5rem;
 }
 
 p {
-  margin: 0 0 1rem;
-}
-
-pre {
-  display: inline;
-  font-family: “SF Mono”, monospace;
-  font-size: 1rem;
-  font-weight: 400;
-  margin: 0;
-  padding: 0;
+  padding: 0 0 .5rem;
 }
