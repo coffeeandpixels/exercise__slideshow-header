@@ -36,6 +36,7 @@ nav {
 main {
   margin: 0 auto;
   max-width: 64ch;
+  padding: 1rem;
 }
 
 h1 {
