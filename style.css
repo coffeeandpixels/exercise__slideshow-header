@@ -13,10 +13,10 @@ html {
 }
 
 header {
-  -webkit-animation: slideshow 10s infinite; 
-  -moz-animation:    slideshow 10s infinite; 
-  -o-animation:      slideshow 10s infinite; 
-  animation:         slideshow 10s infinite; 
+  -webkit-animation: slideshow 20s infinite; 
+  -moz-animation:    slideshow 20s infinite; 
+  -o-animation:      slideshow 20s infinite; 
+  animation:         slideshow 20s infinite; 
   background-color: gray;
   background-image: url("strip.jpg");
   background-repeat: no-repeat;
@@ -30,10 +30,9 @@ header {
 }
 
 nav {
-  background-color: black;
+  background-color: hsla(0, 0%, 0%, .5);
   border-radius: .5rem;
   display: block;
-  opacity: .5;
   padding: 1rem 1rem .9rem;
   width: auto;
 }
