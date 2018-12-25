@@ -13,6 +13,10 @@ html {
 }
 
 header {
+  -webkit-animation: slideshow 10s infinite; 
+  -moz-animation:    slideshow 10s infinite; 
+  -o-animation:      slideshow 10s infinite; 
+  animation:         slideshow 10s infinite; 
   background-color: gray;
   background-image: url("strip.jpg");
   background-position: 0 0;
@@ -61,4 +65,25 @@ p {
   -webkit-hyphens: auto;
   hyphens: auto;
   padding: 0 0 .5rem;
+}
+
+@keyframes slideshow {
+
+  0% { background-position: 0px 0px; }
+  18% { background-position: 0px 0px; }
+
+  20% { background-position: 20% 0px; }
+  38% { background-position: 20% 0px; }
+
+  40% { background-position: 40% 0px; }
+  58% { background-position: 40% 0px; }
+
+  60% { background-position: 60% 0px; }
+  78% { background-position: 60% 0px; }
+
+  80% { background-position: 80% 0px; }
+  98% { background-position: 80% 0px; }
+
+  100% { background-position: 0px 0px; }
+
 }
