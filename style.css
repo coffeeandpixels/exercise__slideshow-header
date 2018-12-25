@@ -56,5 +56,7 @@ h2 {
 }
 
 p {
+  -webkit-hyphens: auto;
+  hyphens: auto;
   padding: 0 0 .5rem;
 }
