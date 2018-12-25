@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: white;
+  color: black;
+  font-family: -apple-system, Helvetica, sans-serif;
+  font-size: 1.25em;
+  font-weight: 400;
+}
+
+header {
+  background-color: gray;
+  background-image: url("strip.jpg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  color: white;
+  display: block;
+  height: 66.66vw;
+  padding: 3vw;
+  width: 100%;
+}
+
+nav {
+  background-color: black;
+  border-radius: .25rem;
+  display: block;
+  opacity: .7;
+  padding: 1rem;
+  width: auto;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 64ch;
+}
+
+h1 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+}
