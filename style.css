@@ -19,7 +19,6 @@ header {
   animation:         slideshow 10s infinite; 
   background-color: gray;
   background-image: url("strip.jpg");
-  background-position: 0 0;
   background-repeat: no-repeat;
   background-size: 500% 100%;
   box-sizing: border-box;
@@ -34,7 +33,7 @@ nav {
   background-color: black;
   border-radius: .5rem;
   display: block;
-  opacity: .7;
+  opacity: .5;
   padding: 1rem 1rem .9rem;
   width: auto;
 }
@@ -69,21 +68,21 @@ p {
 
 @keyframes slideshow {
 
-  0% { background-position: 0px 0px; }
-  18% { background-position: 0px 0px; }
+  0% { background-position: 0% 0px; }
+  18% { background-position: 0% 0px; }
 
-  20% { background-position: 1920px 0px; }
-  38% { background-position: 1920px 0px; }
+  20% { background-position: 25% 0px; }
+  38% { background-position: 25% 0px; }
 
-  40% { background-position: 3840px 0px; }
-  58% { background-position: 3840px 0px; }
+  40% { background-position: 50% 0px; }
+  58% { background-position: 50% 0px; }
 
-  60% { background-position: 5760px 0px; }
-  78% { background-position: 5760px 0px; }
+  60% { background-position: 75% 0px; }
+  78% { background-position: 75% 0px; }
 
-  80% { background-position: 7680px 0px; }
-  98% { background-position: 7680px 0px; }
+  80% { background-position: 100% 0px; }
+  98% { background-position: 100% 0px; }
 
-  100% { background-position: 0px 0px; }
+  100% { background-position: 0% 0px; }
 
 }
