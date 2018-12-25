@@ -17,6 +17,7 @@ header {
   background-image: url("strip.jpg");
   background-position: 0 0;
   background-repeat: no-repeat;
+  background-size: 1920px 1280px;
   box-sizing: border-box;
   color: white;
   display: block;
