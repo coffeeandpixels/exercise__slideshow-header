@@ -31,6 +31,7 @@ header {
 }
 
 nav {
+  -webkit-backdrop-filter: blur(1rem);
   backdrop-filter: blur(1rem);
   background-color: hsla(0, 0%, 0%, .5);
   border-radius: .5rem;
